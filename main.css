@@ -1,0 +1,95 @@
+body {		
+	padding: 50px;
+	background:url("fondo.jpg")no-repeat;
+	color: black;
+}
+
+h1 {
+	font-family: 'Helvetica neue', 'Helvetica', 'Arial', sans-serif;
+	font-size: 48px;
+	font-weight: 300;
+	color: #999;
+	text-align: center;
+}
+
+#notSupported {
+	display: none;
+}
+
+#notSupported h1 {
+	color: #b41a1a;
+	margin-bottom: 20px;
+}
+
+#ascii {
+	font-family: 'Courier New', 'Courier', monospace;
+	font-size: 10px;
+	line-height: 10px;
+	letter-spacing: -1.5px;
+	text-align: center;
+}
+
+#fork, 
+#idevelop {
+	display: block;
+	position: fixed;
+	z-index: 10;
+
+	top: 0;
+	right: 30px;
+	padding: 10px 50px 10px 10px;
+	
+	background: url('../images/blacktocat.png') #0090ff no-repeat 95% 50%;
+	border: 1px solid #0090ff;
+	border-top: 0;
+
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+
+#idevelop:hover {
+	text-decoration: underline;
+}
+
+#idevelop {
+	border: 1px solid #eee;
+	border-top: 0;
+	color: #333;
+	right: 200px;
+	background: url('../images/idevelop.png') #fff no-repeat 95% 50%;	
+}
+
+#encabezado{
+	font-family: cursive;
+	border: 1px solid white;
+	border-radius: 7px;
+	width:80%;
+	margin-bottom:10px;
+	color: blueviolet;
+	text-align:center;
+}
+
+h4, h5{
+	text-align: left;
+	line-height: 10px;
+	margin-left: 34%;
+}
+
+a{
+	text-transform: uppercase;
+	font-family: cursive;
+	color: red;
+}
+
+table{
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 7px;
+}
